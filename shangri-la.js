@@ -13,7 +13,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Cancun&appid=f07d753450
       .then(data => {
         console.log(data);
         temperature.textContent = "Current Temperature: "+data.main.temp+ "℃";
-        description.textContent = "Looks Like: "+data.weather[0].description;
+        description.textContent = ""+data.weather[0].description;
     
 
         //icon for the weather//

@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: pink;
+    color: rgb(89, 5, 168);
+    display: flex;  
+    position:sticky;
+    top:0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem
+}
+
+header nav{
+    display:flex;
+}
+
+header nav li{
+    list-style-type: none;
+    display:inline;
+    margin-right: 1.5rem;
+}
+
+header nav li:last-of-type {
+	margin-right:0;
+
+}
+
+header nav li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav li a:hover{
+    color:  rgb(89, 5, 168);
+    text-decoration: underline;
+
+}
+
+button{ 
+    display: none;
+}
+
+@media screen and (max-width:1130px) {
+    body{
+        background-color: rgb(217, 165, 241); 
+    }
+    button{
+        display:block;
+        background: none;
+        border: none;
+        color:  rgb(89, 5, 168);
+        font-size: 150%;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    header nav{
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        z-index: 100;
+        background-color: pink;
+        flex-direction: column;
+        display: none;
+    }
+    header nav.active{
+        display: block;
+    }
+    header nav ul{
+        padding-left: 0;
+    }
+    header nav li{
+        display: block;
+        text-align: center;
+        margin-right: 0;
+    }
+    header nav li a{
+        display: block;
+        padding:1rem;
+    }
+}
