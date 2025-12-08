@@ -1,7 +1,7 @@
             
             
 const togglebButton = document.getElementById('toggle');
-const mainMenu = document.getElementById('menu');
+const mainMenu = document.getElementById('navbar');
 
 togglebButton.addEventListener('click',function(){
 mainMenu.classList.toggle('active');
