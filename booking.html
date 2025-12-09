@@ -25,7 +25,7 @@
                 <li><a href="activities.html">Activities & Excursions</a></li>
                 <li><a href="testimonials.html">Guest Testimonials</a></li>
             </ul>
-            <a href="#booking.html" id="bookButton">Book Now</a>
+            <a href="booking.html" class="button">Book Now</a>
         </nav>
        
     </header>
@@ -48,8 +48,43 @@
     
     <main>
       
-            <h2>Homepage</h2>
-            <p> this is where the content goes</p>
+        
+        
+        <!-- We need a booking form here -->
+
+        <div class="bookingForm" id="bookingForm">
+            <h2>Reserve Your Escape</h2>
+        <form>
+
+            <Label for="Name">Your Name</Label><br>
+            <input type="text" id="name" name="name" required name="name" placeholder="Audrey Hepburn"><br>
+            
+            <Label for="Email">Your Email</Label><br>
+            <input type="text" id="Email" name="Email" required name="Email" placeholder="breakfast@tiffanys.com"><br>
+
+            <Label for ="checkIn">Your Arrival</Label>
+            <input type="date" id="checkIn" name="checkIn" required name="checkIn">
+            
+            <Label for ="checkOut">Your Departure</Label>
+            <input type="date" id="checkOut" name="checkOut" required name="checkOut"><br>
+
+
+            <label for ="rooms">Choose your Oasis</label><br>
+            <select id="rooms" name="rooms">
+                <option value="oceanView"> Ocean View Deluxe Room </option>
+                <option value="beachfront"> Beachfront Suite </option>
+                <option value="gardenView"> Garden View Family Room </option>
+                <option value="premiumOcean"> Premium oceanfront Suite with Plunge Pool </option>
+                <option value="accessibleLuxury"> Accessible Luxury Room </option>
+            </select><br>
+            
+            <label for="message">Personalized Requests</label><br>
+            <textarea name="message" rows="8" cols="30">Let us know if there is anything we can prepare for your stay.</textarea>
+            
+            <button class="bookButton" type ="submit">Begin your Getaway</button>  <!--something is wrong with the button only showing on mobile, need to change ID="bookButton" to CLASS="bookButton across pages" -->
+        </form>
+        </div>
+
     </main>
 
     <footer>
