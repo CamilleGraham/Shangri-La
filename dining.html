@@ -22,10 +22,11 @@
                 <li><a href="hotel.html">Rooms & Suites</a></li>
                 <li><a href="dining.html">Dining & Drinks</a></li>
                 <li><a href="spa.html">Spa</a></li>
-                <li><a href="activities.html">Activities & Excursions</a></li>
+                <li><a href="activities.html">Activities & Excursions</a></li> <!-- maybe change to Experiences-->
                 <li><a href="testimonials.html">Guest Testimonials</a></li>
+                <li><a href="booking.html">Book Your Escape</a></li>
             </ul>
-            <a href="booking.html" id="bookButton">Book Now</a>
+            <a href="booking.html" class="button">Book Your Escape</a>
         </nav>
        
     </header>
@@ -34,7 +35,7 @@
         
         <h1>Shangri-La Cancun Beach Resort</h1> <!--maybe add Luxury-->
 
-        <img id = "heroImg" src="images/Optimized/hero couple narrow.webp" alt="a couple at the resort standing at the end of an infinity pool">
+        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> <!-- change ID to CLASS across pages-->
 
         <div id="weather">
             <img src="" alt="" id="icon">
@@ -46,44 +47,72 @@
         </div>
     </section>
     
-    <main>
-      
-            <h2>A Culinary Journey</h2>
-            <p> 
-Indulge in a diverse range of dining experiences at Shangri La Beach Resort. From elegant fine dining to casual beachfront bites, our restaurants and bars offer something to tantalize every taste bud and create unforgettable culinary moments.
-The Beach House - Fine Dining with Ocean Views
-Experience the epitome of culinary excellence at The Beach House. Our signature restaurant offers breathtaking panoramic ocean views, creating a romantic and sophisticated ambiance. Our talented chefs craft exquisite dishes using the freshest locally-sourced seafood and premium international ingredients. Indulge in innovative flavor combinations and impeccable service for a truly memorable fine dining experience. The Beach House is perfect for special occasions or a luxurious evening out.
+<main>
+    <section id="dining">
+        <h2>A Culinary Journey</h2>
+        <p>Indulge in a diverse range of dining experiences at Shangri La Beach Resort. From elegant fine dining to casual beachfront bites, our restaurants and bars offer something to tantalize every taste bud and create unforgettable culinary moments.</p>
 
-●	Cuisine: Fine Dining, Seafood, International
-●	Ambiance: Elegant, Romantic, Oceanfront
-●	Dress Code: Smart Casual
-●	Reservations Recommended
-The Sand Bar - Relaxed Beachfront Grill
-For a more casual and laid-back dining experience, head to The Sand Bar. Situated right on the beach, this vibrant grill offers a relaxed atmosphere where you can enjoy delicious food with your toes in the sand. Savor grilled specialties, fresh salads, and satisfying sandwiches, all while soaking in the sun and enjoying the ocean breeze. The Sand Bar is the perfect spot for a casual lunch, a refreshing afternoon snack, or a relaxed dinner under the stars.
+        <article class="restaurant">
+            <h3>The Beach House - Fine Dining with Ocean Views</h3>
+            <p>Experience the epitome of culinary excellence at The Beach House. Our signature restaurant offers breathtaking panoramic ocean views, creating a romantic and sophisticated ambiance. Our talented chefs craft exquisite dishes using the freshest locally-sourced seafood and premium international ingredients. Indulge in innovative flavor combinations and impeccable service for a truly memorable fine dining experience. The Beach House is perfect for special occasions or a luxurious evening out.</p>
 
-●	Cuisine: Casual, Grill, Seafood, American
-●	Ambiance: Relaxed, Beachfront, Informal
-●	Dress Code: Casual
-●	No Reservations Required
-The Poolside Cafe - Refreshments and Light Bites
-Stay refreshed and energized without leaving the poolside at The Poolside Cafe. This convenient and casual spot offers a variety of light bites, including salads, wraps, and snacks, as well as a wide selection of refreshing beverages, from tropical cocktails to chilled juices. It's the perfect place to grab a quick and tasty meal or a cool drink while enjoying the sun and the pool.
+            <ul>
+                <li>Cuisine: Fine Dining, Seafood, International</li>
+                <li>Ambiance: Elegant, Romantic, Oceanfront</li>
+                <li>Dress Code: Smart Casual</li>
+                <li>Reservations Recommended</li>
+            </ul>
+        </article>
 
-●	Cuisine: Casual, Light Bites, Snacks, Beverages
-●	Ambiance: Relaxed, Poolside, Informal
-●	Dress Code: Casual
-●	No Reservations Required
-The Lobby Lounge - Sophisticated Cocktails and Ambiance
-Unwind and socialize in the elegant setting of The Lobby Lounge. This sophisticated lounge offers a curated selection of handcrafted cocktails, fine wines, and premium spirits. Enjoy light appetizers and small plates in a stylish atmosphere, often accompanied by live music in the evenings. The Lobby Lounge is the perfect place to start your evening, enjoy a nightcap, or simply relax and soak in the refined ambiance.
+            <article class="restaurant">
+            <h3>The Sand Bar - Relaxed Beachfront Grill</h3>
+            <p>For a more casual and laid-back dining experience, head to The Sand Bar. Situated right on the beach, this vibrant grill offers a relaxed atmosphere where you can enjoy delicious food with your toes in the sand. Savor grilled specialties, fresh salads, and satisfying sandwiches, all while soaking in the sun and enjoying the ocean breeze. The Sand Bar is the perfect spot for a casual lunch, a refreshing afternoon snack, or a relaxed dinner under the stars.</p>
 
-●	Cuisine: Beverages, Light Appetizers
-●	Ambiance: Sophisticated, Relaxed, Live Music (select evenings)
-●	Dress Code: Smart Casual
-●	No Reservations Required
-Other Dining Options
-●	Room Service: Enjoy the convenience of dining in the comfort and privacy of your own room with our extensive room service menu, available 24 hours a day.
-●	Buffet Breakfast: Start your day with a sumptuous buffet breakfast featuring a wide array of hot and cold dishes, fresh fruits, pastries, and more.
-●	Special Dietary Options: We are committed to accommodating your dietary needs. Please inform us of any allergies or dietary restrictions, and our chefs will be happy to prepare customized meals for you.
-</p>
+            <ul>
+                <li>Cuisine: Casual, Grill, Seafood, American</li>
+                <li>Ambiance: Relaxed, Beachfront, Informal</li>
+                <li>Dress Code: Casual</li>
+                <li>No Reservations Required</li>
+            </ul>
+        </article>
+
+            <article class="restaurant">
+                <h3>The Poolside Cafe - Refreshments and Light Bites</h3>
+                <p>Stay refreshed and energized without leaving the poolside at The Poolside Cafe. This convenient and casual spot offers a variety of light bites, including salads, wraps, and snacks, as well as a wide selection of refreshing beverages, from tropical cocktails to chilled juices. It's the perfect place to grab a quick and tasty meal or a cool drink while enjoying the sun and the pool.</p>
+
+                <ul>
+                    <li>Cuisine: Casual, Light Bites, Snacks, Beverages</li>
+                    <li>Ambiance: Relaxed, Poolside, Informal</li>
+                    <li>Dress Code: Casual</li>
+                    <li>No Reservations Required</li>
+                </ul>
+            </article>
+
+            <article class="restaurant">
+                <h3>The Lobby Lounge - Sophisticated Cocktails and Ambiance</h3>
+                <p>Unwind and socialize in the elegant setting of The Lobby Lounge. This sophisticated lounge offers a curated selection of handcrafted cocktails, fine wines, and premium spirits. Enjoy light appetizers and small plates in a stylish atmosphere, often accompanied by live music in the evenings. The Lobby Lounge is the perfect place to start your evening, enjoy a nightcap, or simply relax and soak in the refined ambiance.</p>
+
+                <ul>
+                    <li>Cuisine: Beverages, Light Appetizers</li>
+                    <li>Ambiance: Sophisticated, Relaxed, Live Music (select evenings)</li>
+                    <li>Dress Code: Smart Casual</li>
+                    <li>No Reservations Required</li>
+                </ul>
+            </article>
+                
+        <aside>
+        <h3>Other Dining Options</h3>
+        
+        <dl>
+        <dt>Room Service: </dt><dd>Enjoy the convenience of dining in the comfort and privacy of your own room with our extensive room service menu, available 24 hours a day.</dd>
+        
+        <dt>Buffet Breakfast: </dt><dd>Start your day with a sumptuous buffet breakfast featuring a wide array of hot and cold dishes, fresh fruits, pastries, and more.</dd>
+        
+        <dt>Special Dietary Options: </dt><dd>We are committed to accommodating your dietary needs. Please inform us of any allergies or dietary restrictions, and our chefs will be happy to prepare customized meals for you.</dd>
+        </dl>
+        </aside>
+
+    </section>
     </main>
 
     <footer>

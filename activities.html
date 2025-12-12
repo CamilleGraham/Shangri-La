@@ -22,10 +22,11 @@
                 <li><a href="hotel.html">Rooms & Suites</a></li>
                 <li><a href="dining.html">Dining & Drinks</a></li>
                 <li><a href="spa.html">Spa</a></li>
-                <li><a href="activities.html">Activities & Excursions</a></li>
+                <li><a href="activities.html">Activities & Excursions</a></li> <!-- maybe change to Experiences-->
                 <li><a href="testimonials.html">Guest Testimonials</a></li>
+                <li><a href="booking.html">Book Your Escape</a></li>
             </ul>
-            <a href="booking.html" id="bookButton">Book Now</a>
+            <a href="booking.html" class="button">Book Your Escape</a>
         </nav>
        
     </header>
@@ -34,7 +35,7 @@
         
         <h1>Shangri-La Cancun Beach Resort</h1> <!--maybe add Luxury-->
 
-        <img id = "heroImg" src="images/Optimized/hero couple narrow.webp" alt="a couple at the resort standing at the end of an infinity pool">
+        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> <!-- change ID to CLASS across pages-->
 
         <div id="weather">
             <img src="" alt="" id="icon">
@@ -48,54 +49,94 @@
     
     <main>
       
-            <h2>Activities & Excursions</h2>
-            <p> 
-Discover the wonders of our tropical paradise and create unforgettable memories with our curated selection of activities and excursions.
-On-Site Activities
-Relaxation & Rejuvenation:
+        <h2>Activities & Excursions</h2>
+        <p>Discover the wonders of our tropical paradise and create unforgettable memories with our curated selection of activities and excursions.</p>
 
-●	Sunrise Yoga on the Beach: Start your day with a peaceful yoga session as the sun rises over the ocean. (Daily, complimentary)
-●	Guided Meditation Sessions: Find inner peace and tranquillity with our guided meditation sessions in the serene garden. (Daily, complimentary)
-●	Beachside Relaxation: Unwind on our pristine private beach with complimentary sun loungers and umbrellas.
-●	Infinity Pool Retreat: Take a refreshing dip in our stunning infinity pool with breathtaking ocean views.
 
-Adventure & Recreation:
+        <h3>On-Site Activities</h3>
 
-●	Water Sports: Explore the crystal-clear waters with our range of water sports activities.
-○	Snorkeling: Discover vibrant coral reefs and marine life. (Equipment provided, fees may apply)
-○	Kayaking: Paddle along the coastline and explore hidden coves. (Rentals available)
-○	Stand-Up Paddleboarding: Enjoy a fun and invigorating workout on the water. (Rentals available)
-●	Beach Volleyball: Gather your friends and family for a friendly game of beach volleyball. (Complimentary)
-●	Fitness Center: Maintain your fitness routine in our state-of-the-art fitness center. (24/7 access)
-●	Kids' Club Activities: Let your children enjoy fun and engaging activities with our supervised Kids' Club. (Daily, various activities)
-Local Excursions
-Explore the Natural Beauty:
+        <article class = activities> 
+        <h4>~ Relaxation & Rejuvenation ~</h4>
 
-●	Coral Reef Snorkeling Tour: Embark on a guided snorkeling tour to explore the vibrant coral reefs and encounter diverse marine life. (Half-day excursion, fees apply)
-●	Island Hopping Adventure: Discover the surrounding islands with a scenic boat tour. (Full-day excursion, fees apply)
-●	Rainforest Hike & Waterfall Visit: Immerse yourself in the lush rainforest and discover hidden waterfalls. (Half-day or full-day excursion, fees apply)
-●	Sunset Cruise: Enjoy a romantic sunset cruise along the coastline with breathtaking views. (Evening excursion, fees apply)
+            <dl>  
+            <dt>Sunrise Yoga on the Beach</dt><dd>Start your day with a peaceful yoga session as the sun rises over the ocean. (Daily, complimentary)</dd>
+            
+            <dt>Guided Meditation Sessions</dt><dd>Find inner peace and tranquillity with our guided meditation sessions in the serene garden. (Daily, complimentary)</dd>
+            
+            <dt>Beachside Relaxation</dt><dd>Unwind on our pristine private beach with complimentary sun loungers and umbrellas.</dd>
+            
+            <dt>Infinity Pool Retreat</dt><dd>Take a refreshing dip in our stunning infinity pool with breathtaking ocean views.</dd>
+            
+            </dl> 
+        </article>
+        
+        <article class = activities> 
+        <h4>~ Adventure & Recreation ~</h4>
+            <dl>
+            <dt>Sports</dt><dd>Explore the crystal-clear waters with our range of water sports activities.</dd>
+            
+            <dt>Snorkeling</dt><dd>Discover vibrant coral reefs and marine life. (Equipment provided, fees may apply)</dd>
+            
+            <dt>Kayaking</dt><dd>Paddle along the coastline and explore hidden coves. (Rentals available)</dd>
+            
+            <dt>Stand-Up Paddleboarding</dt><dd>Enjoy a fun and invigorating workout on the water. (Rentals available)</dd>
+            
+            <dt>Beach Volleyball</dt><dd>Gather your friends and family for a friendly game of beach volleyball.(Complimentary)</dd>
+            
+            <dt>Fitness Center</dt><dd>Maintain your fitness routine in our state-of-the-art fitness center. (24/7 access)</dd>
+            
+            <dt>Kids' Club Activities</dt><dd>Let your children enjoy fun and engaging activities with our supervised Kids' Club. (Daily, various activities) </dd>
+           
+            </dl> 
+        </article>
 
-Cultural Experiences:
+        <h3>Local Excursions</h3>
+        
+        <article class = activities> 
+        <h4>~ Explore the Natural Beauty ~</h4>
+            <dl>
+            <dt>Coral Reef Snorkeling Tour</dt><dd>Embark on a guided snorkeling tour to explore the vibrant coral reefs and encounter diverse marine life. (Half-day excursion, fees apply)</dd>
+            
+            <dt>Island Hopping Adventure</dt><dd>Discover the surrounding islands with a scenic boat tour. (Full-day excursion, fees apply)</dd>
+            
+            <dt>Rainforest Hike & Waterfall Visit</dt><dd>Immerse yourself in the lush rainforest and discover hidden waterfalls. (Half-day or full-day excursion, fees apply)</dd>
+            
+            <dt>Sunset Cruise</dt><dd>Enjoy a romantic sunset cruise along the coastline with breathtaking views. (Evening excursion, fees apply)</dd>
+            </dl> 
+        </article>
 
-●	Local Village Visit: Experience the authentic culture and traditions of the local village. (Half-day excursion, fees apply)
-●	Traditional Cooking Class: Learn to prepare local delicacies with a hands-on cooking class. (Half-day excursion, fees apply)
-●	Cultural Performance: Enjoy a captivating performance of traditional music and dance. (Evening event, fees may apply)
+        <article class = activities> 
+        <h4>~ Cultural Experiences ~</h4>
+            <dl>
+            <dt>Local Village Visit</dt><dd>Experience the authentic culture and traditions of the local village. (Half-day excursion, fees apply)</dd>
+            <dt>Traditional Cooking Class</dt><dd>earn to prepare local delicacies with a hands-on cooking class. (Half-day excursion, fees apply)</dd>
+            <dt></dt>Cultural Performance<dd></dd>Enjoy a captivating performance of traditional music and dance. (Evening event, fees may apply)
+                </dl> 
+        </article>
 
-Adventure & Wildlife:
+        <article class = activities> 
+        <h4>~ Adventure & Wildlife ~</h4>
+            <dl>
+            <dt>Diving Excursions</dt><dd>Explore the underwater world with our certified diving instructors. (Various dive sites and packages available, fees apply)</dd>
+            <dt>Wildlife Sanctuary Visit</dt><dd>Encounter exotic wildlife at a nearby sanctuary. (Half-day excursion, fees apply)</dd>
+            <dt>Deep-Sea Fishing</dt><dd>Embark on a thrilling deep-sea fishing adventure. (Half-day or full-day excursion, fees apply)</dd>
+                </dl> 
+        </article>
 
-●	Diving Excursions: Explore the underwater world with our certified diving instructors. (Various dive sites and packages available, fees apply)
-●	Wildlife Sanctuary Visit: Encounter exotic wildlife at a nearby sanctuary. (Half-day excursion, fees apply)
-●	Deep-Sea Fishing: Embark on a thrilling deep-sea fishing adventure. (Half-day or full-day excursion, fees apply)
-Booking & Information
-●	Our concierge team is available to assist you with booking activities and excursions.
-●	Please inquire about availability and pricing for specific activities.
-●	Transportation to and from excursion locations can be arranged.
-●	Advance bookings are recommended, especially during peak season.
+       <aside> 
+        <h3></h3>Booking & Information
 
-Create lasting memories at Shangri La Beach Resort with our diverse range of activities and excursions.
+            <ul>
+                <li>Our concierge team is available to assist you with booking activities and excursions.</li>
+                <li>Please inquire about availability and pricing for specific activities.</li>
+                <li>Transportation to and from excursion locations can be arranged.</li>
+                <li>Advance bookings are recommended, especially during peak season.</li>
+            </ul>
+        
+       
+        <p>Create lasting memories at Shangri La Beach Resort with our diverse range of activities and excursions.</p>
 
-</p>
+
     </main>
 
     <footer>
