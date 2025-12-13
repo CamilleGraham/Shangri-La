@@ -12,7 +12,9 @@
     
     <header>
         
-        <img src="images/favicon.png" alt="Flower Logo"> <!-- possibly replace with smaller logo -->
+        <a href="index.html">
+            <img src="images/favicon.png" alt="Flower Logo"> 
+        </a>
         
         <button id="toggle">&#9776;</button> <!-- hamburger --> 
           
@@ -24,30 +26,32 @@
                 <li><a href="spa.html">Spa</a></li>
                 <li><a href="activities.html">Activities & Excursions</a></li> <!-- maybe change to Experiences-->
                 <li><a href="testimonials.html">Guest Testimonials</a></li>
-                <li><a href="booking.html">Book Your Escape</a></li>
+            
             </ul>
-            <a href="booking.html" class="button">Book Your Escape</a>
+           
         </nav>
-       
+        <a href="booking.html" id="navButton" class="button">Book Your Escape</a>
     </header>
 
     <section class="hero">
         
-        <h1>Shangri-La Cancun Beach Resort</h1> <!--maybe add Luxury-->
+        <h1>Cancun Beach &nbsp;&nbsp;&nbsp; Resort</h1> 
 
-        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> <!-- change ID to CLASS across pages-->
+        <img class="logo" src="images/pinklogo.svg" alt="Shangri-La flower logo">
+
+        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> 
 
         <div id="weather">
             <img src="" alt="" id="icon">
             <ul>
-                <li id="description"></li>
                 <li id="temperature"></li>
+                <li id="description"></li>
                
             </ul>
         </div>
     </section>
     
-    <main>
+    <main class="pageContent">
                   
             <h2>The Serenity Sanctuary</h2>
             <h3>Spa Services & Price List</h3>
@@ -159,10 +163,10 @@
         <h3>Manicures & Pedicures</h3>
         <dl class="spaService">
 
-            <dt>Shangri La Deluxe Manicure</dt> <span>(60 minutes): $90</span>
-            <dt>Shangri La Deluxe Pedicure</dt> <span>(75 minutes): $110</span>
-            <dt>Classic Manicure</dt> <span>(45 minutes): $70</span>
-            <dt>Classic Pedicure</dt> <span>(60 minutes): $90</span>
+            <dt>Shangri La Deluxe Manicure</dt> <dd>(60 minutes): $90</dd>
+            <dt>Shangri La Deluxe Pedicure</dt> <dd>(75 minutes): $110</dd>
+            <dt>Classic Manicure</dt> <dd>(45 minutes): $70</dd>
+            <dt>Classic Pedicure</dt> <dd>(60 minutes): $90</dd>
     
         </dl>
     </article>
@@ -171,9 +175,9 @@
         <h3>Enhancements (Add-ons)</h3>
         <dl class="spaService">
 
-            <dt>Scalp Massage</dt> <span>(15 minutes): $40</span>
-            <dt>Eye Treatment</dt> <span>(15 minutes): $35</span>
-            <dt>Foot Reflexology</dt> <span>(15 minutes): $40</span>
+            <dt>Scalp Massage</dt> <dd>(15 minutes): $40</dd>
+            <dt>Eye Treatment</dt> <dd>(15 minutes): $35</dd>
+            <dt>Foot Reflexology</dt> <dd>(15 minutes): $40</dd>
         </dl>
     </article>
 
@@ -181,13 +185,13 @@
         <h3>Wellness Programs</h3>
         <dl class="spaService">
  
-	        <dt>Yoga Session</dt> <span>(60 minutes): $50 (Group), $120 (Private)</span> 
-	        <dt>Meditation Session</dt> <span>(30 minutes): $40 (Group), $100 (Private)</span>
+	        <dt>Yoga Session</dt> <dd>(60 minutes): $50 (Group), $120 (Private)</dd> 
+	        <dt>Meditation Session</dt> <dd>(30 minutes): $40 (Group), $100 (Private)</dd>
         </dl>
     </article>
      
         <aside>
-        <h5><em>Important Notes</em></h5>
+        <h5><strong>Important Notes</strong></h5>
 	
         <ul>
         <li>Prices are subject to change without notice.</li>
@@ -208,6 +212,6 @@
     </footer>
 
         <script src="shangri-la.js"></script>
-        </script>
+        
 	</body>
 </html>

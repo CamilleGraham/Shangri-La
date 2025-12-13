@@ -1,5 +1,3 @@
-            
-            
 const togglebButton = document.getElementById('toggle');
 const mainMenu = document.getElementById('navbar');
 

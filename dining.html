@@ -12,7 +12,9 @@
     
     <header>
         
-        <img src="images/favicon.png" alt="Flower Logo"> <!-- possibly replace with smaller logo -->
+        <a href="index.html">
+            <img src="images/favicon.png" alt="Flower Logo"> 
+        </a>
         
         <button id="toggle">&#9776;</button> <!-- hamburger --> 
           
@@ -24,30 +26,33 @@
                 <li><a href="spa.html">Spa</a></li>
                 <li><a href="activities.html">Activities & Excursions</a></li> <!-- maybe change to Experiences-->
                 <li><a href="testimonials.html">Guest Testimonials</a></li>
-                <li><a href="booking.html">Book Your Escape</a></li>
+            
             </ul>
-            <a href="booking.html" class="button">Book Your Escape</a>
+           
         </nav>
-       
+        <a href="booking.html" id="navButton" class="button">Book Your Escape</a>
     </header>
 
     <section class="hero">
         
-        <h1>Shangri-La Cancun Beach Resort</h1> <!--maybe add Luxury-->
+        <h1>Cancun Beach &nbsp;&nbsp;&nbsp; Resort</h1> 
 
-        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> <!-- change ID to CLASS across pages-->
+        <img class="logo" src="images/pinklogo.svg" alt="Shangri-La flower logo">
+
+        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> 
 
         <div id="weather">
             <img src="" alt="" id="icon">
             <ul>
-                <li id="description"></li>
                 <li id="temperature"></li>
+                <li id="description"></li>
                
             </ul>
         </div>
     </section>
     
-<main>
+    <main class="pageContent">
+        
     <section id="dining">
         <h2>A Culinary Journey</h2>
         <p>Indulge in a diverse range of dining experiences at Shangri La Beach Resort. From elegant fine dining to casual beachfront bites, our restaurants and bars offer something to tantalize every taste bud and create unforgettable culinary moments.</p>
@@ -121,6 +126,6 @@
     </footer>
 
         <script src="shangri-la.js"></script>
-        </script>
+        
 	</body>
 </html>

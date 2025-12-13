@@ -12,7 +12,9 @@
     
     <header>
         
-        <img src="images/favicon.png" alt="Flower Logo"> <!-- possibly replace with smaller logo -->
+        <a href="index.html">
+            <img src="images/favicon.png" alt="Flower Logo"> 
+        </a>
         
         <button id="toggle">&#9776;</button> <!-- hamburger --> 
           
@@ -24,30 +26,32 @@
                 <li><a href="spa.html">Spa</a></li>
                 <li><a href="activities.html">Activities & Excursions</a></li> <!-- maybe change to Experiences-->
                 <li><a href="testimonials.html">Guest Testimonials</a></li>
-                <li><a href="booking.html">Book Your Escape</a></li>
+            
             </ul>
-            <a href="booking.html" class="button">Book Your Escape</a>
+           
         </nav>
-       
+        <a href="booking.html" id="navButton" class="button">Book Your Escape</a>
     </header>
 
     <section class="hero">
         
-        <h1>Shangri-La Cancun Beach Resort</h1> <!--maybe add Luxury-->
+        <h1>Cancun Beach &nbsp;&nbsp;&nbsp; Resort</h1> 
 
-        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> <!-- change ID to CLASS across pages-->
+        <img class="logo" src="images/pinklogo.svg" alt="Shangri-La flower logo">
+
+        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> 
 
         <div id="weather">
             <img src="" alt="" id="icon">
             <ul>
-                <li id="description"></li>
                 <li id="temperature"></li>
+                <li id="description"></li>
                
             </ul>
         </div>
     </section>
     
-    <main>
+    <main class="pageContent">
       
         <h2>Activities & Excursions</h2>
         <p>Discover the wonders of our tropical paradise and create unforgettable memories with our curated selection of activities and excursions.</p>
@@ -55,7 +59,7 @@
 
         <h3>On-Site Activities</h3>
 
-        <article class = activities> 
+        <article class = "activities"> 
         <h4>~ Relaxation & Rejuvenation ~</h4>
 
             <dl>  
@@ -70,7 +74,7 @@
             </dl> 
         </article>
         
-        <article class = activities> 
+        <article class = "activities"> 
         <h4>~ Adventure & Recreation ~</h4>
             <dl>
             <dt>Sports</dt><dd>Explore the crystal-clear waters with our range of water sports activities.</dd>
@@ -92,7 +96,7 @@
 
         <h3>Local Excursions</h3>
         
-        <article class = activities> 
+        <article class = "activities"> 
         <h4>~ Explore the Natural Beauty ~</h4>
             <dl>
             <dt>Coral Reef Snorkeling Tour</dt><dd>Embark on a guided snorkeling tour to explore the vibrant coral reefs and encounter diverse marine life. (Half-day excursion, fees apply)</dd>
@@ -105,7 +109,7 @@
             </dl> 
         </article>
 
-        <article class = activities> 
+        <article class = "activities"> 
         <h4>~ Cultural Experiences ~</h4>
             <dl>
             <dt>Local Village Visit</dt><dd>Experience the authentic culture and traditions of the local village. (Half-day excursion, fees apply)</dd>
@@ -114,7 +118,7 @@
                 </dl> 
         </article>
 
-        <article class = activities> 
+        <article class = "activities"> 
         <h4>~ Adventure & Wildlife ~</h4>
             <dl>
             <dt>Diving Excursions</dt><dd>Explore the underwater world with our certified diving instructors. (Various dive sites and packages available, fees apply)</dd>
@@ -124,7 +128,7 @@
         </article>
 
        <aside> 
-        <h3></h3>Booking & Information
+        <h3>Booking & Information</h3>
 
             <ul>
                 <li>Our concierge team is available to assist you with booking activities and excursions.</li>
@@ -135,7 +139,7 @@
         
        
         <p>Create lasting memories at Shangri La Beach Resort with our diverse range of activities and excursions.</p>
-
+       </aside>
 
     </main>
 
@@ -145,6 +149,6 @@
     </footer>
 
         <script src="shangri-la.js"></script>
-        </script>
+        
 	</body>
 </html>
