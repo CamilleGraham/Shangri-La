@@ -318,13 +318,13 @@ header nav li a:hover{
 }
 
 #testimonialHighlight cite{
-    font-size: 1.25;
+    font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: 2rem;
 }
 
 #testimonialHighlight q{
-    font-size: 1.25;
+    font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: 2rem;
 }
@@ -366,7 +366,7 @@ header nav li a:hover{
 
 .activities dd{
     font-style: italic;
-    margin-bottom: 0.5;
+    margin-bottom: 0.5rem;
 }
 
 #spaMenu article{
