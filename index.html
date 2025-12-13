@@ -12,7 +12,9 @@
     
     <header>
         
-        <img src="images/favicon.png" alt="Flower Logo"> <!-- possibly replace with smaller logo -->
+        <a href="index.html">
+            <img src="images/favicon.png" alt="Flower Logo"> 
+        </a>
         
         <button id="toggle">&#9776;</button> <!-- hamburger --> 
           
@@ -24,24 +26,26 @@
                 <li><a href="spa.html">Spa</a></li>
                 <li><a href="activities.html">Activities & Excursions</a></li> <!-- maybe change to Experiences-->
                 <li><a href="testimonials.html">Guest Testimonials</a></li>
-                <li><a href="booking.html">Book Your Escape</a></li>
+            
             </ul>
            
         </nav>
-        <a href="booking.html" class="button">Book Your Escape</a>
+        <a href="booking.html" id="navButton" class="button">Book Your Escape</a>
     </header>
 
     <section class="hero">
         
-        <h1>Shangri-La Cancun Beach Resort</h1> <!--maybe add Luxury-->
+        <h1>Cancun Beach &nbsp;&nbsp;&nbsp; Resort</h1> 
 
-        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> <!-- change ID to CLASS across pages-->
+        <img class="logo" src="images/Logo outline.svg" alt="Shangri-La flower logo">
 
-        <div id="weather">
+        <img class="heroImg" src="images/Optimized/hero_couple_narrow.webp" alt="a couple at the resort standing at the end of an infinity pool"> 
+
+        <div id="weather">"
             <img src="" alt="" id="icon">
             <ul>
-                <li id="description"></li>
                 <li id="temperature"></li>
+                <li id="description"></li>
                
             </ul>
         </div>
@@ -51,69 +55,74 @@
 
     <section id="intro">
         
-        <div class="intro">
+        <article class="intro">
         <h2>Shangri La Beach Resort <br> Your Dream Getaway</h2>
             <p>Escape to Paradise ~ Indulge in luxury and breathtaking views at Shangri La Beach Resort. </p>
-        </div>
+        </article>
 
-        <h3>Experience Unforgettable Moments</h3> <!--this should probably be h2-->
+        <h3>Experience Unforgettable Moments</h3> 
 
-        <div class="highlight" >
-            <h4>Private Beach Access</h4>
-        <!-- need to add img src="" -->
+        <article class="highlight" >
+            <h4>Private Beach Access</h4> 
             <p>Step onto our pristine, white-sand beach.</p>
-        </div>
+            <img src="images/Optimized/islandwalkway_cropped.webp" alt="an arial photo of a beach island resort with a long pier">
+            
+        </article>
         
-        <div class="highlight" >
-            <h4>Infinity Pool</h4>
-        <!-- need to add img src="" -->
-            <p>Relax by our stunning oceanfront infinity pool.</p>
+        <article class="highlightInfinity" >
+            <video src="video/infinity_relax.mp4" alt="a woman relaxing in a pool" loading="lazy" autoplay muted playsinline controls></video>
+            <div class="text">
+                <h4>Infinity Pool</h4>
+                <p>Relax by our stunning oceanfront infinity pool.</p>
+            </div>
+        </article>
+
+        <article class="highlight" >
+            <img id=roseSpa src="images/Optimized/spamassage.webp" alt="a woman getting a face massage">
+            <h4>World-Class Spa</h4>
+            <p>Rejuvenate your mind and body at our spa.</p>
+        </article>
         </div>
 
-        <div class="highlight" >
-            <h4>World-Class Spa</h4>
-        <!-- need to add img src="" -->
-            <p>Rejuvenate your mind and body at our spa.</p>
-        </div>
-        
-        <div class="highlight" >
+        <article class="highlight" >
             <h4>Exquisite Dining</h4>
-        <!-- need to add img src="" -->
             <p>Savor culinary delights at our restaurants.</p>
-        </div>
+            <img src="images/Optimized/underwater_diner.webp">
+        </article>
         
     </section>    
     
     <section id="accommodations">
         <h3>Our Luxurious Accommodations</h3> 
     
-        <div class ="roomHighlight">
+        <article class ="roomHighlight">
             <h4>Ocean View Deluxe Room</h4>
         <!-- need to add img src="" -->
             <p>Enjoy stunning ocean views from your private balcony.</p>
 
             <a href="hotel.html" class="button">Discover Room</a>
             <a href="booking.html" class="button">Book Your Escape</a>
-        </div>
+        </article>
 
-        <div class ="roomHighlight">
+        <article class ="roomHighlight">
             <h4>Beachfront Suite</h4>
         <!-- need to add img src="" -->
             <p>Step directly onto the sand from your spacious suite.</p>
 
             <a href="hotel.html" class="button">Discover Room</a>
             <a href="booking.html" class="button">Book Your Escape</a>
-        </div>
+        </article>
 
-        <div class ="roomHighlight">
+        <article class ="roomHighlight">
             <h4>Garden View Family Room</h4>
         <!-- need to add img src="" -->
             <p>Perfect for families, with ample space and garden views.</p>
 
             <a href="hotel.html" class="button">Discover Room</a>
             <a href="booking.html" class="button">Book Your Escape</a>
-        </div>
-</section>
+        </article>
+    </section>
+    
     <section id="testimonialHighlight"> 
         
         <h3>What Our Guests Are Saying</h3>

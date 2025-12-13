@@ -3,14 +3,15 @@
 }
 
 body{
-    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-family: Georgia, Helvetica, sans-serif;
     margin: 0;
     padding:0;
+    background-color: white;
+    color: #333333;
 }
 
 header{
     background-color: pink;
-    color: rgb(89, 5, 168);
     display: flex;  
     position:sticky;
     top:0;
@@ -56,54 +57,120 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
+.logo{
+    position:absolute;
+    margin:0 auto;
+    z-index: 100;
+    max-width: 900px;
+}
 .hero h1{
+    top: 10rem;
     position:absolute;
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-left: 10rem;
 
 }
 
 #weather{
-    border: 1px solid yellow;
    
+    background-color: rgba(0,0,0,0.1);
     position: absolute;
     bottom: 1rem;
     left: 1rem;
     z-index: 100;
     color:white;
     font-weight: bold;
-    
-    
     height: 200px;
     width: 200px;
 }
 
 #weather li {
     list-style-type: none;
-    text-shadow: 1px,1px,2px, pink; 
-    background-color: rgba (0,0,0,0.8);
+    text-shadow: 1px 1px 2px black; 
+  
+}
+
+#navButton{
+    background-color: rgb(89, 5, 168);
+    color:rgb(255, 214, 221);
+    padding: 0.75rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold; 
 }
 
 .button{
     text-decoration: none;
     text-align: center;
-    background-color: blue;
+    background-color: pink;
+    color:rgb(89, 5, 168);
+    padding:0.75rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+section #intro{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:3rem 1.5rem;
+}
+.highlight{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
 
+.highlight div{
+    width:90%;
+}
+
+.highlight h4{
+    margin-bottom: 0.25rem;
+}
+.highlight img{
+    width: 90%;
+}
+
+.highlightInfinity{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin: 3rem auto;
+    padding:3rem;
+}
+
+.highlightInfinity video{
+    max-width: 400px;
+}
+
+.highlightInfinity .text{
+    max-width: 400px;
+    margin: 2rem;    
+}
+
+
+#roseSpa{
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 footer{
     background-color: aliceblue;
-    margin: 0;
+    margin-top: 2rem;
     padding: 0;
     width: 100%;
 }
 
 @media screen and (max-width:1130px) {
     body{
-        background-color: rgb(217, 165, 241); 
+        background-color: bisque
+
     }
     button{
         display:block;
